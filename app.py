@@ -11,7 +11,7 @@ import joblib
 
 model = joblib.load('churn_model.pkl') 
 
-model_columns = joblib.load('model_columns.pkl') 
+model_columns = joblib.load('model_cols.pkl') 
 
 threshold = joblib.load('threshold.pkl') 
 st.title("Customer Churn Prediction App") 
